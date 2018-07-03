@@ -10,7 +10,6 @@ function summonCaptainPlanet(planeteerCalls){
   var newPlanet = [];
   for(var i = 0; i < planeteerCalls.length; i++) {
     newPlanet.push(`${planeteerCalls[i].toUpperCase()}!`);
-  }
   return newPlanet;
 }
 
