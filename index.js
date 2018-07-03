@@ -30,7 +30,7 @@ function findTheCheese (foods) {
       return foods[i];
     }
   }
-  if(foods !== 'cheddar' || foods !== 'gouda' || foods !== 'camembert') {
+  if(foods[i] !== 'cheddar' || foods[i] !== 'gouda' || foods[i] !== 'camembert') {
     return 'no cheese!';
   }
 }
